@@ -1,0 +1,10 @@
+.Layout{
+  width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  margin-bottom: 50px;
+}

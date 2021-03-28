@@ -1,0 +1,20 @@
+@import '../../App.module.css';
+
+.city_container{
+  width: 100%;
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px 0 ;
+}
+
+.city_item{
+  margin: 0 2px;
+  padding: 10px;
+  border: var(--border);
+  border-radius: 5px;
+}
+
+.city_item:hover{
+  background: var(--main-background);
+}

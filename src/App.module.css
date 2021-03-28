@@ -1,0 +1,35 @@
+:root {
+  --color: white;
+  --color-gray: rgb(204, 204, 204);
+  --main-background: whitesmoke;
+  --border: 1px solid var(--main-background);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+body {
+  min-width: 300px;
+  max-width: 1240px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.content {
+  width: 60%;
+  margin: 60px auto 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 550px) {
+  .content {
+    width: 100%;
+  }
+}

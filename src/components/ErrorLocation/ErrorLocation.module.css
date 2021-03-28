@@ -1,0 +1,8 @@
+@import '../../App.module.css';
+
+.ErrorLocation{
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: var(--main-background);
+}

@@ -1,0 +1,26 @@
+@import '../../App.module.css';
+
+.form{
+  margin: 15px 0;
+  width: 100%;
+  display: flex;  
+} 
+.input{
+  flex-grow: 1;
+  width: 50%;
+  background: var(--main-background);
+}
+.input, .searchBtn{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.searchBtn{
+
+  margin-left: 10px;  
+}
+
+.searchBtn:hover{
+  background: rgb(228, 228, 228) ;
+  outline: none;
+}

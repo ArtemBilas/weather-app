@@ -1,0 +1,14 @@
+@import '../../App.module.css';
+
+.Footer{
+  margin-top: auto;
+  border: var(--border);
+  border-radius: 5px 5px 0 0;
+  background: var(--main-background);
+}
+
+.Copyright{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}

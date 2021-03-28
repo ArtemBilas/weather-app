@@ -1,0 +1,9 @@
+@import '../../App.module.css';
+
+.ErrorCityName{
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: var(--main-background);
+  color: tomato;
+}
